@@ -1,0 +1,18 @@
+ .heading {
+     background-color: rgb(33, 10, 136);
+     color: white;
+     padding: 10px;
+ }
+
+ .item_btn {
+     cursor: pointer;
+     width: 25%;
+     border: 2px solid rgb(255, 252, 252);
+     color: white;
+     margin-top: 8px;
+     font-weight: 700;
+ }
+
+ .no_click {
+     pointer-events: none;
+ }

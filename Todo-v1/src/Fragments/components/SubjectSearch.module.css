@@ -1,0 +1,10 @@
+.subject_search {
+    width: 30%;
+    margin: 5px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.search_btn {
+    margin: 5px;
+}

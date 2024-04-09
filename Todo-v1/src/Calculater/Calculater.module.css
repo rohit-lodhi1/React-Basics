@@ -1,0 +1,32 @@
+.container {
+    text-align: center;
+    margin: 10px auto;
+    border: 3px solid rgba(0, 0, 0, 0.241);
+    width: 17%;
+    justify-content: center;
+}
+
+.title {
+    text-align: center;
+    font-weight: 600;
+    margin: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.display {
+    margin: 10px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.calculater_button {}
+
+.cal_btn {
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    border-radius: 6px;
+    border: 1px solid rgb(120, 120, 120);
+}
