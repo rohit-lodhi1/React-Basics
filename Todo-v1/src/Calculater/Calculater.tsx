@@ -28,7 +28,7 @@ function Calculater() {
         </div>
         <div className={styles.container}>
             <Display val={displayVal}></Display>
-            <CalButton onButtonClick={updateVal}>  </CalButton>
+            <CalButton onButtonClick={updateVal} />
         </div>
     </>
 
