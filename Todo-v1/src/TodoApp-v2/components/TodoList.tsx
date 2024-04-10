@@ -2,15 +2,16 @@ import { useContext } from "react";
 import TodoItem from "./TodoItem";
 import { TodoItemsContext } from "../store/TodoItemsStore";
 
-function TodoList({ deleteTodo }: { deleteTodo: any }) {
+function TodoList() {
     let line = 1;
-    let todoList = useContext(TodoItemsContext).items;
-    if (todoList.length == 0)
+    let { items }: any = useContext(TodoItemsContext);
+    let { deleteItem }: any = useContext(TodoItemsContext);
+    if (items.length == 0)
         return <></>
 
 
     function onDelete(id: any) {
-        deleteTodo(id);
+        deleteItem(id);
     }
 
     return <>
@@ -26,7 +27,7 @@ function TodoList({ deleteTodo }: { deleteTodo: any }) {
                     </tr>
                 </thead>
                 <tbody>
-                    {todoList.map((item: any) => (
+                    {items.map((item: any) => (
                         <TodoItem deleteTodo={onDelete} key={line} id={line++} taskName={item.taskName} date={item.date}></TodoItem>
                     ))}
                 </tbody>

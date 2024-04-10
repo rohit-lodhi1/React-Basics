@@ -2,7 +2,7 @@ import { useState, useRef, useContext } from "react";
 import { MdOutlineAddBox } from "react-icons/md";
 import { TodoItemsContext } from "../store/TodoItemsStore";
 
-function AddTodo({ addTodo }: { addTodo: any }) {
+function AddTodo() {
 
     let [todoName, setTodoName] = useState("");
     let [todoDate, setTodoDate] = useState("");

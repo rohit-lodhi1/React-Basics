@@ -8,6 +8,7 @@ import TodoApp from './TodoApp/components/TodoApp'
 import { FragmentsApp } from './Fragments/Fragments'
 import TodoAppV2 from './TodoApp-v2/TodoApp'
 import Calculater from './Calculater/Calculater'
+import { SocialMediaApp } from './SocialMedia/SocialMediaApp'
 function App() {
 
 
@@ -16,9 +17,9 @@ function App() {
 
       {/* <TodoApp></TodoApp> */}
       {/* <FragmentsApp></FragmentsApp> */}
-      <TodoAppV2></TodoAppV2>
-
+      {/* <TodoAppV2></TodoAppV2> */}
       {/* <Calculater></Calculater> */}
+      <SocialMediaApp></SocialMediaApp>
     </>
   )
 }
