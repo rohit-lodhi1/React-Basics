@@ -16,7 +16,7 @@ const route = createBrowserRouter([
                 path: 'create-post', element: <CreatePost />
             },
             {
-                path: 'profile', element: <Profile />
+                path: 'profile/:id', element: <Profile />
             }
         ]
     }

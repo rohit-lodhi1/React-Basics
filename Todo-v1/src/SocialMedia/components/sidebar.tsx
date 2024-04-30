@@ -11,13 +11,14 @@ export const Sidebar = () => {
                 <hr />
                 <ul className="nav nav-pills flex-column mb-auto">
                     <li className="nav-item">
-                        <NavLink to="" className={`nav-link  text-white `} activeClassName="active" aria-current="page">
+                        <NavLink to="" className={`nav-link  text-white `} activeclassname="active" aria-current="page">
                             <svg className="bi me-2" width="16" height="16"><use xlinkHref="#home"></use></svg>
                             Home
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink to="/create-post" activeClassName="active" className="nav-link  text-white ">
+
+                        <NavLink to="/create-post" activeclassname="active" className="nav-link  text-white ">
                             <svg className="bi me-2" width="16" height="16"><use xlinkHref="#speedometer2"></use></svg>
                             Create Post
                         </NavLink>
